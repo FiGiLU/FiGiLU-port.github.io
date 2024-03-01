@@ -1,0 +1,66 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+body img{
+    width: 50%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 10px;
+}
+body video{
+    border-radius: 5px;
+    width: 50%;
+    height: 40%;
+}
+body a{
+    font-size: 2em;
+}
+#head{
+    background-color: hsl(207, 77%, 57%);
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3px;
+}
+#about{
+    background-color: hsl(207, 77%, 57%);
+    max-width: 40%;
+    margin: auto;
+    border-radius: 5px;
+}
+#about p{
+    background-color: hsl(207, 77%, 63%);
+    max-width:95%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+#showcase{padding: 10px;}
+#showcase h2{
+    background-color: hsl(207, 77%, 57%);
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+}
+#showcase h3{
+    background-color: hsl(207, 77%, 57%);
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#contact h2{
+    background-color: hsl(207, 77%, 50%);
+    max-width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#contact{
+    background-color: hsl(207, 77%, 63%);
+    max-width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
