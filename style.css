@@ -1,0 +1,38 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+body h1{
+    color: #e7ff0b;
+}
+
+.btn{
+    background-color: #00bfff;
+    border: 0cm;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: hsl(195, 100%, 60%);
+    cursor: pointer;
+}
+.layer {
+    display: none;
+}
+  
+.layer.active {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+#layer4.active{
+    display: block;
+}
+body video{
+    max-width:700px;
+    min-width:200px;
+    width: 40%;
+}
