@@ -3,58 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio made by FiGiLU, mostly vfx.">
     <script src="https://kit.fontawesome.com/03202afc94.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Favicon.png">
     <title>Portfolio</title>
 </head>
 <body>
-    <div id="page"></div>
-    <div id="darkmode"></div>
     <div id="head">
-        <h1>FiGiLU'S Portfolio</h1>
-        <a href="https://discord.gg/jFDTD6PHkr" target="_blank">
-            <i size="2em" id="discord" class="fa-brands fa-discord fa-bounce"></i>
-        </a>
+        <h1>My Portfolio</h1>
+        <p>Hey! My name is FiGiLU but you can call me Fig for now. I am doing my best to climb the ladder to become a good all-around developer, and i chose to start with the following:</p>
+    </div>
+    <div id="content">
+        <button onclick="showLayer('layer1')" class="btn" id="VFXbtn">VFX</button>
+        <button onclick="showLayer('layer2')" class="btn" id="HTMLbtn">HTML/CSS</button>
+        <button onclick="showLayer('layer3')" class="btn" id="JSSbtn">JavaScript</button>
+        <button onclick="showLayer('layer4')" class="btn" id="ENDBTN">Pricing</button>
     </div>
 
-    <div id="about">
-        <h2>About me</h2>
-        <p>I'm FiGiLU, but you can also call me fig. </br></p>
-        <p>I'm a high school student that cannot find something to focus on to save his life. Thanks to that now i have a basic level of skills in development.</br></p>
-        <p>I started off doing animations, but i have lost all my past work files so for now all i can really share is my VFX skills. On top of that i have some basic knowledge of lua (beginner level) and HTML+CSS.</br></p>
-        <p>I am currently studying JavaScript.</br></p>
-        <p>I do not have any past work due to having just made my portfolio, as my first personal project.</p>
+    <p id="btntext"></p>
+
+    <div id="layer1" class="layer">
+        <video src="Media/aura.webm" controls title="Basic aura thing"></video>
+        <video src="Media/rain.webm" controls title="Rain aura"></video>
+        <video src="Media/firepit.webm" controls title="Firepit"></video>
+        <video src="Media/fire blade.webm" controls title="Fire blade from Deepwoken(copy)"></video>
+        <video src="Media/fire gun.webm" controls title="Fire gun from Deepwoken(copy)"></video>
+        <video src="Media/fire palm.webm" controls title="Fire palm from Deepwoken(copy)"></video>
+        <video src="Media/thunder strike.webm" controls title="Thunder Strike from Deepwoken(copy)"></video>
     </div>
 
-    <div id="showcase">
-        <h2>Showcase</h2>
-
-        <h3>VFX</h3>
-        <video src="Media/aura.webm" alt="I can make auras" loop autoplay controls></video></br>
-        <video src="Media/rain.webm" alt="another aura lol" loop autoplay controls></video></br>
-        <img src="Media/bluefire.gif" alt="I can also do some pretty nasty fire effects"></br>
-        <video src="Media/firepit.webm" alt="wow a firepit" loop autoplay controls></video></br>
-        <video src="Media/fire blade.webm" alt="Heres fire blade from deepwoken" loop autoplay controls></video></br>
-        <video src="Media/fire palm.webm" alt="Fire Palm from deepwoken" loop autoplay controls></video></br>
-        <video src="Media/fire gun.webm" alt="Fire gun from deepwoken" loop autoplay controls></video></br>
-
-        <h3>HTML/CSS</h3>
-        <p>Well. i did make the page you're currently using</p>
-        <img src="Media/scrinsit.png" alt="*insert screenshot of website at the time of writing*">
-        
-        <h3>JavaScript</h3>
-        <video src="Media/counter.mp4" controls></video></br>
-        <video src="Media/discount.mp4" controls></video>
+    <div id="layer2" class="layer">
+    <p>You have this page as your example lol</p>
     </div>
 
-    <div id="contact">
+    <div id="layer3" class="layer">
+        <video src="Media/counter.mp4" controls title="Counter"></video>
+        <video src="Media/discount.mp4" controls title="Discount"></video>
+    </div>
+
+    <div id="layer4" class="layer">
         <h2>Pricing and Contact</h2>
 
         <h3>Pricing</h3>
         <p>When it comes to VFX and animations prices are based on what you want, and how many.</p>
         <p>If what you want is a website similar to mine, that can range from 5 to 10$.</p>
-        <p>I prefer payment through paypal, where i wil <b>usually charge less</b></p>
+        <p>I prefer payment through paypal, where i wil <u>usually charge less</u></p>
 
         <h3>Contact</h3>
         <p>In case you got my website as a recommendation from a friend, you can contact me on discord (@figilu) or via joining my server below</p>

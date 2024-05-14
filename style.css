@@ -1,66 +1,38 @@
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    padding: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
-body img{
-    width: 70%;
-    height: 55%;
+body h1{
+    color: #e7ff0b;
+}
+
+.btn{
+    background-color: #00bfff;
+    border: 0cm;
     border-radius: 5px;
-    padding: 10px;
+    height: 30px;
+    width: 70px;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: hsl(195, 100%, 60%);
+    cursor: pointer;
+}
+.layer {
+    display: none;
+}
+  
+.layer.active {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+#layer4.active{
+    display: block;
 }
 body video{
-    border-radius: 5px;
-    width: 70%;
-    height: 55%;
-}
-body a{
-    font-size: 2em;
-}
-#head{
-    background-color: hsl(207, 77%, 57%);
-    max-width: 300px;
-    margin: auto;
-    border-radius: 5px;
-    padding: 3px;
-}
-#about{
-    background-color: hsl(207, 77%, 57%);
-    max-width: 80%;
-    margin: auto;
-    border-radius: 5px;
-}
-#about p{
-    background-color: hsl(207, 77%, 63%);
-    max-width:95%;
-    margin: auto;
-    border-radius: 5px;
-    padding: 5px;
-}
-#showcase{padding: 10px;}
-#showcase h2{
-    background-color: hsl(207, 77%, 57%);
-    max-width: fit-content;
-    margin: auto;
-    border-radius: 5px;
-}
-#showcase h3{
-    background-color: hsl(207, 77%, 57%);
-    max-width: fit-content;
-    margin: auto;
-    border-radius: 5px;
-}
-
-#contact h2{
-    background-color: hsl(207, 77%, 50%);
-    max-width: 50%;
-    margin: auto;
-    border-radius: 5px;
-}
-
-#contact{
-    background-color: hsl(207, 77%, 63%);
-    max-width: 90%;
-    margin: auto;
-    border-radius: 5px;
+    max-width:700px;
+    min-width:200px;
+    width: 40%;
 }
