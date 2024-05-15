@@ -31,8 +31,22 @@ body h1{
 #layer4.active{
     display: block;
 }
-body video{
-    max-width:700px;
-    min-width:200px;
-    width: 40%;
+body video {
+    max-width: 100%; /* Ensures the video never exceeds the width of its container */
+    width: 100%; /* Initially set to full width */
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+    body video {
+        width: 100vw; /* Full viewport width for small screens */
+    }
+}
+
+/* Media query for large screens */
+@media only screen and (min-width: 601px) {
+    body video {
+        max-width: 600px; /* Limits width to 600px on large screens */
+        width: 40%; /* 40% width on large screens */
+    }
 }
