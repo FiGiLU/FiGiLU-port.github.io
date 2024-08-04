@@ -47,7 +47,7 @@ body video {
 /* Media query for large screens */
 @media only screen and (min-width: 601px) {
     body video {
-        max-width: 600px; /* Limits width to 600px on large screens */
-        width: 40%; /* 40% width on large screens */
+        max-width: 450px; /* Limits width to 600px on large screens */
+        width: 50%; /* 50% width on large screens */
     }
 }
